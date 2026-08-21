@@ -4572,8 +4572,8 @@ importers:
         version: 8.2.1(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.98.0)(tsx@4.22.3)(yaml@2.9.0)
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20260526.1
-        version: 4.20260527.1
+        specifier: ^5.20260818.1
+        version: 5.20260821.1
       '@types/node':
         specifier: ^22.19.0
         version: 22.19.19
@@ -4600,7 +4600,7 @@ importers:
         version: 0.2.17
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/allowed-hosts:
     dependencies:
@@ -4625,7 +4625,7 @@ importers:
     devDependencies:
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/astro-env:
     dependencies:
@@ -4638,7 +4638,7 @@ importers:
     devDependencies:
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/binding-image-cache:
     dependencies:
@@ -4713,7 +4713,7 @@ importers:
         version: link:../../../../../astro
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/custom-entryfile-fetch-state:
     dependencies:
@@ -4725,7 +4725,7 @@ importers:
         version: link:../../../../../astro
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/custom-image-service:
     dependencies:
@@ -4866,7 +4866,7 @@ importers:
     devDependencies:
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/server-entry:
     dependencies:
@@ -4903,7 +4903,7 @@ importers:
         version: link:../../../../../astro
       wrangler:
         specifier: ^4.83.0
-        version: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+        version: 4.95.0(@cloudflare/workers-types@5.20260821.1)
 
   packages/integrations/cloudflare/test/fixtures/sql-import:
     dependencies:
@@ -7870,8 +7870,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cloudflare/workers-types@4.20260527.1':
-    resolution: {integrity: sha512-GK+C05N4fGptp1uG+pbjC/7Udonz8EhMEYvYFnVKdLLnEGS9nsmVOFi/RLQr7tq9l/0UEzcWjudzeY2ssuqyIA==}
+  '@cloudflare/workers-types@5.20260821.1':
+    resolution: {integrity: sha512-jZiTISghTPeytJ7eDt5K1AV7df998xGECMgT8oy838VfFLJLROvdLzDaJb0/Jv4WfxO00keNoWt1d6olL7URRg==}
 
   '@codspeed/core@5.2.0':
     resolution: {integrity: sha512-CmDhpWjcOJg2iBOQ/BmBnSBq8qxlM3r4h8uvYDkoUaba+EKRT3T73BZtKuml/48jZMsB+4/FG2UbTBinDWtuvw==}
@@ -17269,7 +17269,7 @@ snapshots:
       miniflare: 4.20260526.0
       unenv: 2.0.0-rc.24
       vite: 8.2.1(@types/node@22.19.19)(esbuild@0.28.0)(jiti@2.6.1)(sass@1.98.0)(tsx@4.22.3)(yaml@2.9.0)
-      wrangler: 4.95.0(@cloudflare/workers-types@4.20260527.1)
+      wrangler: 4.95.0(@cloudflare/workers-types@5.20260821.1)
       ws: 8.20.1
     transitivePeerDependencies:
       - bufferutil
@@ -17291,7 +17291,7 @@ snapshots:
   '@cloudflare/workerd-windows-64@1.20260526.1':
     optional: true
 
-  '@cloudflare/workers-types@4.20260527.1': {}
+  '@cloudflare/workers-types@5.20260821.1': {}
 
   '@codspeed/core@5.2.0':
     dependencies:
@@ -26463,7 +26463,7 @@ snapshots:
 
   workerpool@9.3.4: {}
 
-  wrangler@4.95.0(@cloudflare/workers-types@4.20260527.1):
+  wrangler@4.95.0(@cloudflare/workers-types@5.20260821.1):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.5.0
       '@cloudflare/unenv-preset': 2.16.1(unenv@2.0.0-rc.24)(workerd@1.20260526.1)
@@ -26475,7 +26475,7 @@ snapshots:
       unenv: 2.0.0-rc.24
       workerd: 1.20260526.1
     optionalDependencies:
-      '@cloudflare/workers-types': 4.20260527.1
+      '@cloudflare/workers-types': 5.20260821.1
       fsevents: 2.3.3
     transitivePeerDependencies:
       - bufferutil
